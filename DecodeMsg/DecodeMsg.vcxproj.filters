@@ -33,5 +33,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
+    <Text Include="DecodeMsg.txt" />
   </ItemGroup>
 </Project>

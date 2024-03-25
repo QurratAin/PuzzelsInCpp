@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DecodeMsg", "DecodeMsg\Deco
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MedianSortedArray", "MedianSortedArray\MedianSortedArray.vcxproj", "{C8965BEB-6C68-4073-A622-DC9644FF1E0E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestingPuzzles", "TestingPuzzles\TestingPuzzles.vcxproj", "{68F5C500-8A8B-40CD-93C4-E296518924F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{C8965BEB-6C68-4073-A622-DC9644FF1E0E}.Release|x64.Build.0 = Release|x64
 		{C8965BEB-6C68-4073-A622-DC9644FF1E0E}.Release|x86.ActiveCfg = Release|Win32
 		{C8965BEB-6C68-4073-A622-DC9644FF1E0E}.Release|x86.Build.0 = Release|Win32
+		{68F5C500-8A8B-40CD-93C4-E296518924F6}.Debug|x64.ActiveCfg = Debug|x64
+		{68F5C500-8A8B-40CD-93C4-E296518924F6}.Debug|x64.Build.0 = Debug|x64
+		{68F5C500-8A8B-40CD-93C4-E296518924F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{68F5C500-8A8B-40CD-93C4-E296518924F6}.Debug|x86.Build.0 = Debug|Win32
+		{68F5C500-8A8B-40CD-93C4-E296518924F6}.Release|x64.ActiveCfg = Release|x64
+		{68F5C500-8A8B-40CD-93C4-E296518924F6}.Release|x64.Build.0 = Release|x64
+		{68F5C500-8A8B-40CD-93C4-E296518924F6}.Release|x86.ActiveCfg = Release|Win32
+		{68F5C500-8A8B-40CD-93C4-E296518924F6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
