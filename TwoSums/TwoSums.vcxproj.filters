@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MedianSortedArray.cpp">
+    <ClCompile Include="TwoSums.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Median.cpp">
+    <ClCompile Include="FindSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Median.h">
+    <ClInclude Include="FindSum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="util.h">
+    <ClInclude Include="Util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

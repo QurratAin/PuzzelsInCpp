@@ -1,11 +1,10 @@
-#include "pch.h"
 #include "Median.h"
 
 void Median::calculate_median()
 {
 	vector<double> merged_number;
 	int idx_of_first = 0, idx_of_second = 0;
-	
+
 	// merge by checking which number is smallest on the each number array
 	while (idx_of_first < this->first.size() && idx_of_second < this->second.size()) {
 		if (this->first[idx_of_first] < this->second[idx_of_second]) {
@@ -15,7 +14,7 @@ void Median::calculate_median()
 		else {
 			merged_number.push_back(this->second[idx_of_second]);
 			++idx_of_second;
-		}	
+		}
 	}
 
 	// if numbers are remaining on first array, add those

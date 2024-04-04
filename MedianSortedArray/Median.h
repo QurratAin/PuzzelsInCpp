@@ -1,3 +1,4 @@
+#pragma once
 #include <algorithm>
 #include <vector>
 
@@ -7,7 +8,7 @@ class Median {
 private:
 	vector<double> first;
 	vector<double> second;
-	
+
 public:
 	double median;
 	Median() : median(0.0) {};
