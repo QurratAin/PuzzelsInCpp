@@ -1,6 +1,7 @@
 #pragma once
 #include <algorithm>
 #include <vector>
+#include <unordered_map>
 
 using namespace std;
 /// /// <summary>
@@ -24,4 +25,5 @@ using namespace std;
 class FindSum {
 public:
     vector<int> check(vector<int>& nums, int target);
+    vector<int> check_by_hash(vector<int>& nums, int target);
 };

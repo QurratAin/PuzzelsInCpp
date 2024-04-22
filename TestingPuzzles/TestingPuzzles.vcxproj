@@ -106,7 +106,9 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="testcoinchange.cpp" />
     <ClCompile Include="testequalizefrequency.cpp" />
+    <ClCompile Include="testlongestsubstring.cpp" />
     <ClCompile Include="testmediansortedarray.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -121,8 +123,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CoinChange\CoinChange.vcxproj">
+      <Project>{8fee5306-e9a7-4271-8360-3eade7f5deb7}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\EqualizeFrequency\EqualizeFrequency.vcxproj">
       <Project>{9100a816-2424-4c78-9e87-6e2f0335bf23}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\LongestString\LongestString.vcxproj">
+      <Project>{d93ae121-b7c7-49eb-8ac3-e25ff213ced1}</Project>
     </ProjectReference>
     <ProjectReference Include="..\MedianSortedArray\MedianSortedArray.vcxproj">
       <Project>{259db56b-edb1-4e8d-a286-a061f3924e79}</Project>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9100a816-2424-4c78-9e87-6e2f0335bf23}</ProjectGuid>
-    <RootNamespace>EqualizeFrequency</RootNamespace>
+    <ProjectGuid>{d93ae121-b7c7-49eb-8ac3-e25ff213ced1}</ProjectGuid>
+    <RootNamespace>LongestString</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,10 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="equalFrequency.cpp" />
+    <ClInclude Include="LongestSubstring.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="equalFrequency.h" />
+    <ClCompile Include="LongestSubstring.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

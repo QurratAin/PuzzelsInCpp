@@ -13,3 +13,16 @@ vector<int> FindSum::check(vector<int>& nums, int target) {
     }
     return vector<int>{};
 }
+
+vector<int> FindSum::check_by_hash(vector<int>& nums, int target)
+{
+    unordered_map<int, int> diff_map;
+    for (int idx = 0; idx < nums.size(); idx++) {
+        if (diff_map.find(target - nums[idx]) != diff_map.end()) {
+           return vector<int>{diff_map.at(target - nums[idx]), idx};
+        }
+        diff_map.insert({ nums[idx], idx });
+    }
+
+    return vector<int>();
+}

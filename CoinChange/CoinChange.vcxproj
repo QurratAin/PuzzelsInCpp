@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9100a816-2424-4c78-9e87-6e2f0335bf23}</ProjectGuid>
-    <RootNamespace>EqualizeFrequency</RootNamespace>
+    <ProjectGuid>{8fee5306-e9a7-4271-8360-3eade7f5deb7}</ProjectGuid>
+    <RootNamespace>CoinChange</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -119,6 +119,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,10 +129,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="equalFrequency.cpp" />
+    <ClInclude Include="CoinChange.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="equalFrequency.h" />
+    <ClCompile Include="CoinChange.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

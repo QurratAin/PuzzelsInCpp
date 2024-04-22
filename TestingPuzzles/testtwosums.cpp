@@ -13,6 +13,9 @@ TEST(TestTwoSums, FoundTarget) {
 	vector<int> result = test_sum.check(numbers, target_sum);
 	ASSERT_EQ(2, result.size());
 	EXPECT_EQ(result, target_result);
+
+	vector<int> result_hash = test_sum.check_by_hash(numbers, target_sum);
+	EXPECT_EQ(result_hash, target_result);
 }
 
 TEST(TestTwoSums, NotFoundTarget) {
@@ -23,4 +26,7 @@ TEST(TestTwoSums, NotFoundTarget) {
 	vector<int> result = test_sum.check(numbers, target_sum);
 	ASSERT_EQ(0, result.size());
 	EXPECT_EQ(result, target_result);
+
+	vector<int> result_hash = test_sum.check_by_hash(numbers, target_sum);
+	EXPECT_EQ(result_hash, target_result);
 }
