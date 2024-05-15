@@ -108,6 +108,7 @@
   <ItemGroup>
     <ClCompile Include="testcoinchange.cpp" />
     <ClCompile Include="testequalizefrequency.cpp" />
+    <ClCompile Include="testEquivalentPair.cpp" />
     <ClCompile Include="testlongestsubstring.cpp" />
     <ClCompile Include="testmediansortedarray.cpp" />
     <ClCompile Include="pch.cpp">
@@ -117,6 +118,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="testmostfreq.cpp" />
+    <ClCompile Include="testrunningaverage.cpp" />
     <ClCompile Include="testtwosums.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +131,9 @@
     <ProjectReference Include="..\EqualizeFrequency\EqualizeFrequency.vcxproj">
       <Project>{9100a816-2424-4c78-9e87-6e2f0335bf23}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\EquivalentPair\EquivalentPair.vcxproj">
+      <Project>{daf1758b-9364-4a45-96cf-0f1c1dde1094}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\LongestString\LongestString.vcxproj">
       <Project>{d93ae121-b7c7-49eb-8ac3-e25ff213ced1}</Project>
     </ProjectReference>
@@ -137,6 +142,9 @@
     </ProjectReference>
     <ProjectReference Include="..\MostFreq\MostFreq.vcxproj">
       <Project>{8768e9bc-2af1-45a2-9fcb-2eba3ee339c4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\runningAverage\runningAverage.vcxproj">
+      <Project>{8ddec295-efb8-454e-a9cc-352ca1f7499b}</Project>
     </ProjectReference>
     <ProjectReference Include="..\TwoSums\TwoSums.vcxproj">
       <Project>{e6092c99-9d31-4050-ae17-8af1b9549134}</Project>
