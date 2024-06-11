@@ -107,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="testcoinchange.cpp" />
+    <ClCompile Include="testcountingbits.cpp" />
     <ClCompile Include="testequalizefrequency.cpp" />
     <ClCompile Include="testEquivalentPair.cpp" />
     <ClCompile Include="testlongestsubstring.cpp" />
@@ -117,6 +118,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="testmindiffpart.cpp" />
     <ClCompile Include="testmostfreq.cpp" />
     <ClCompile Include="testoddoccurance.cpp" />
     <ClCompile Include="testromantointeger.cpp" />
@@ -130,6 +132,9 @@
     <ProjectReference Include="..\CoinChange\CoinChange.vcxproj">
       <Project>{8fee5306-e9a7-4271-8360-3eade7f5deb7}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\CountingBits\CountingBits.vcxproj">
+      <Project>{ecb5bb31-8e1d-4835-b192-005b99c7212d}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\EqualizeFrequency\EqualizeFrequency.vcxproj">
       <Project>{9100a816-2424-4c78-9e87-6e2f0335bf23}</Project>
     </ProjectReference>
@@ -141,6 +146,9 @@
     </ProjectReference>
     <ProjectReference Include="..\MedianSortedArray\MedianSortedArray.vcxproj">
       <Project>{259db56b-edb1-4e8d-a286-a061f3924e79}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MinDiffPart\MinDiffPart.vcxproj">
+      <Project>{310c7aa2-27aa-4209-82d4-8ed4ac41c3ff}</Project>
     </ProjectReference>
     <ProjectReference Include="..\MostFreq\MostFreq.vcxproj">
       <Project>{8768e9bc-2af1-45a2-9fcb-2eba3ee339c4}</Project>
