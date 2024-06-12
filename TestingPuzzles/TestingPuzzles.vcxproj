@@ -111,6 +111,7 @@
     <ClCompile Include="testequalizefrequency.cpp" />
     <ClCompile Include="testEquivalentPair.cpp" />
     <ClCompile Include="testlongestsubstring.cpp" />
+    <ClCompile Include="testmaxxounter.cpp" />
     <ClCompile Include="testmediansortedarray.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -143,6 +144,9 @@
     </ProjectReference>
     <ProjectReference Include="..\LongestString\LongestString.vcxproj">
       <Project>{d93ae121-b7c7-49eb-8ac3-e25ff213ced1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MaxCounter\MaxCounter.vcxproj">
+      <Project>{c2d63e63-377b-4ddb-b99f-e5ecd6908f88}</Project>
     </ProjectReference>
     <ProjectReference Include="..\MedianSortedArray\MedianSortedArray.vcxproj">
       <Project>{259db56b-edb1-4e8d-a286-a061f3924e79}</Project>
