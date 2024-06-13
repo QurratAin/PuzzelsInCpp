@@ -124,6 +124,7 @@
     <ClCompile Include="testoddoccurance.cpp" />
     <ClCompile Include="testromantointeger.cpp" />
     <ClCompile Include="testrunningaverage.cpp" />
+    <ClCompile Include="testsmallestpositivenumber.cpp" />
     <ClCompile Include="testtwosums.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -165,6 +166,9 @@
     </ProjectReference>
     <ProjectReference Include="..\runningAverage\runningAverage.vcxproj">
       <Project>{8ddec295-efb8-454e-a9cc-352ca1f7499b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SmallestPositiveInteger\SmallestPositiveInteger.vcxproj">
+      <Project>{bf53285f-ce98-4ef1-ad7c-3f4cbbe77d88}</Project>
     </ProjectReference>
     <ProjectReference Include="..\TwoSums\TwoSums.vcxproj">
       <Project>{e6092c99-9d31-4050-ae17-8af1b9549134}</Project>
