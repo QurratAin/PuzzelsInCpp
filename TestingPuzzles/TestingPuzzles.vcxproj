@@ -122,6 +122,7 @@
     <ClCompile Include="testmindiffpart.cpp" />
     <ClCompile Include="testmostfreq.cpp" />
     <ClCompile Include="testoddoccurance.cpp" />
+    <ClCompile Include="testrangequery.cpp" />
     <ClCompile Include="testromantointeger.cpp" />
     <ClCompile Include="testrunningaverage.cpp" />
     <ClCompile Include="testsmallestpositivenumber.cpp" />
@@ -142,6 +143,9 @@
     </ProjectReference>
     <ProjectReference Include="..\EquivalentPair\EquivalentPair.vcxproj">
       <Project>{daf1758b-9364-4a45-96cf-0f1c1dde1094}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\GeonomicRangeQuery\GeonomicRangeQuery.vcxproj">
+      <Project>{426a6297-2eee-4236-a3f6-4ca0feffb682}</Project>
     </ProjectReference>
     <ProjectReference Include="..\LongestString\LongestString.vcxproj">
       <Project>{d93ae121-b7c7-49eb-8ac3-e25ff213ced1}</Project>

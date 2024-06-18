@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxCounter", "MaxCounter\Ma
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmallestPositiveInteger", "SmallestPositiveInteger\SmallestPositiveInteger.vcxproj", "{BF53285F-CE98-4EF1-AD7C-3F4CBBE77D88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeonomicRangeQuery", "GeonomicRangeQuery\GeonomicRangeQuery.vcxproj", "{426A6297-2EEE-4236-A3F6-4CA0FEFFB682}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{BF53285F-CE98-4EF1-AD7C-3F4CBBE77D88}.Release|x64.Build.0 = Release|x64
 		{BF53285F-CE98-4EF1-AD7C-3F4CBBE77D88}.Release|x86.ActiveCfg = Release|Win32
 		{BF53285F-CE98-4EF1-AD7C-3F4CBBE77D88}.Release|x86.Build.0 = Release|Win32
+		{426A6297-2EEE-4236-A3F6-4CA0FEFFB682}.Debug|x64.ActiveCfg = Debug|x64
+		{426A6297-2EEE-4236-A3F6-4CA0FEFFB682}.Debug|x64.Build.0 = Debug|x64
+		{426A6297-2EEE-4236-A3F6-4CA0FEFFB682}.Debug|x86.ActiveCfg = Debug|Win32
+		{426A6297-2EEE-4236-A3F6-4CA0FEFFB682}.Debug|x86.Build.0 = Debug|Win32
+		{426A6297-2EEE-4236-A3F6-4CA0FEFFB682}.Release|x64.ActiveCfg = Release|x64
+		{426A6297-2EEE-4236-A3F6-4CA0FEFFB682}.Release|x64.Build.0 = Release|x64
+		{426A6297-2EEE-4236-A3F6-4CA0FEFFB682}.Release|x86.ActiveCfg = Release|Win32
+		{426A6297-2EEE-4236-A3F6-4CA0FEFFB682}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
