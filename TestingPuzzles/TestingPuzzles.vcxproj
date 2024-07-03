@@ -119,6 +119,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="testminavg.cpp" />
     <ClCompile Include="testmindiffpart.cpp" />
     <ClCompile Include="testmostfreq.cpp" />
     <ClCompile Include="testoddoccurance.cpp" />
@@ -155,6 +156,9 @@
     </ProjectReference>
     <ProjectReference Include="..\MedianSortedArray\MedianSortedArray.vcxproj">
       <Project>{259db56b-edb1-4e8d-a286-a061f3924e79}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MinAvgTwoSlice\MinAvgTwoSlice.vcxproj">
+      <Project>{11dc25f3-5dea-463a-b768-64c2d2daa781}</Project>
     </ProjectReference>
     <ProjectReference Include="..\MinDiffPart\MinDiffPart.vcxproj">
       <Project>{310c7aa2-27aa-4209-82d4-8ed4ac41c3ff}</Project>
