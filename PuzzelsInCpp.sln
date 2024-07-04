@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeonomicRangeQuery", "Geono
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinAvgTwoSlice", "MinAvgTwoSlice\MinAvgTwoSlice.vcxproj", "{11DC25F3-5DEA-463A-B768-64C2D2DAA781}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Brackets", "Brackets\Brackets.vcxproj", "{A4365BCF-0FFF-4278-BD72-5CF81FA48FF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{11DC25F3-5DEA-463A-B768-64C2D2DAA781}.Release|x64.Build.0 = Release|x64
 		{11DC25F3-5DEA-463A-B768-64C2D2DAA781}.Release|x86.ActiveCfg = Release|Win32
 		{11DC25F3-5DEA-463A-B768-64C2D2DAA781}.Release|x86.Build.0 = Release|Win32
+		{A4365BCF-0FFF-4278-BD72-5CF81FA48FF1}.Debug|x64.ActiveCfg = Debug|x64
+		{A4365BCF-0FFF-4278-BD72-5CF81FA48FF1}.Debug|x64.Build.0 = Debug|x64
+		{A4365BCF-0FFF-4278-BD72-5CF81FA48FF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4365BCF-0FFF-4278-BD72-5CF81FA48FF1}.Debug|x86.Build.0 = Debug|Win32
+		{A4365BCF-0FFF-4278-BD72-5CF81FA48FF1}.Release|x64.ActiveCfg = Release|x64
+		{A4365BCF-0FFF-4278-BD72-5CF81FA48FF1}.Release|x64.Build.0 = Release|x64
+		{A4365BCF-0FFF-4278-BD72-5CF81FA48FF1}.Release|x86.ActiveCfg = Release|Win32
+		{A4365BCF-0FFF-4278-BD72-5CF81FA48FF1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
