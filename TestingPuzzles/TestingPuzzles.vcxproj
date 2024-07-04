@@ -106,6 +106,7 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="testalivefish.cpp" />
     <ClCompile Include="testbrackets.cpp" />
     <ClCompile Include="testcoinchange.cpp" />
     <ClCompile Include="testcountingbits.cpp" />
@@ -134,6 +135,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AliveFish\AliveFish.vcxproj">
+      <Project>{05b56748-395d-40af-904e-4f4d2e901801}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\Brackets\Brackets.vcxproj">
       <Project>{a4365bcf-0fff-4278-bd72-5cf81fa48ff1}</Project>
     </ProjectReference>
