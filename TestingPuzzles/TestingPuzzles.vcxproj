@@ -110,6 +110,7 @@
     <ClCompile Include="testbrackets.cpp" />
     <ClCompile Include="testcoinchange.cpp" />
     <ClCompile Include="testcountingbits.cpp" />
+    <ClCompile Include="testdominator.cpp" />
     <ClCompile Include="testequalizefrequency.cpp" />
     <ClCompile Include="testEquivalentPair.cpp" />
     <ClCompile Include="testlongestsubstring.cpp" />
@@ -146,6 +147,9 @@
     </ProjectReference>
     <ProjectReference Include="..\CountingBits\CountingBits.vcxproj">
       <Project>{ecb5bb31-8e1d-4835-b192-005b99c7212d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominator\Dominator.vcxproj">
+      <Project>{0afe61ee-fa3b-4be9-8018-d4779dbceb72}</Project>
     </ProjectReference>
     <ProjectReference Include="..\EqualizeFrequency\EqualizeFrequency.vcxproj">
       <Project>{9100a816-2424-4c78-9e87-6e2f0335bf23}</Project>
