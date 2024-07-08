@@ -115,6 +115,8 @@
     <ClCompile Include="testequileader.cpp" />
     <ClCompile Include="testEquivalentPair.cpp" />
     <ClCompile Include="testlongestsubstring.cpp" />
+    <ClCompile Include="testmaxprofit.cpp" />
+    <ClCompile Include="testmaxslicesum.cpp" />
     <ClCompile Include="testmaxxounter.cpp" />
     <ClCompile Include="testmediansortedarray.cpp" />
     <ClCompile Include="pch.cpp">
@@ -169,6 +171,12 @@
     </ProjectReference>
     <ProjectReference Include="..\MaxCounter\MaxCounter.vcxproj">
       <Project>{c2d63e63-377b-4ddb-b99f-e5ecd6908f88}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MaxProfit\MaxProfit.vcxproj">
+      <Project>{1ecc0794-30ed-4a55-b5a0-1372ec1a6f7d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MaxSliceSum\MaxSliceSum.vcxproj">
+      <Project>{cd8f39f0-0716-49c3-8ab4-fed8fd748c11}</Project>
     </ProjectReference>
     <ProjectReference Include="..\MedianSortedArray\MedianSortedArray.vcxproj">
       <Project>{259db56b-edb1-4e8d-a286-a061f3924e79}</Project>
