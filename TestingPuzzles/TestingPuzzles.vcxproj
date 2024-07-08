@@ -112,6 +112,7 @@
     <ClCompile Include="testcountingbits.cpp" />
     <ClCompile Include="testdominator.cpp" />
     <ClCompile Include="testequalizefrequency.cpp" />
+    <ClCompile Include="testequileader.cpp" />
     <ClCompile Include="testEquivalentPair.cpp" />
     <ClCompile Include="testlongestsubstring.cpp" />
     <ClCompile Include="testmaxxounter.cpp" />
@@ -153,6 +154,9 @@
     </ProjectReference>
     <ProjectReference Include="..\EqualizeFrequency\EqualizeFrequency.vcxproj">
       <Project>{9100a816-2424-4c78-9e87-6e2f0335bf23}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\EquiLeader\EquiLeader.vcxproj">
+      <Project>{9205f087-d47b-4b3b-9b3a-d5f1eddb16ee}</Project>
     </ProjectReference>
     <ProjectReference Include="..\EquivalentPair\EquivalentPair.vcxproj">
       <Project>{daf1758b-9364-4a45-96cf-0f1c1dde1094}</Project>
