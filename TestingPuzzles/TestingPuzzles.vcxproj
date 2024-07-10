@@ -114,7 +114,9 @@
     <ClCompile Include="testequalizefrequency.cpp" />
     <ClCompile Include="testequileader.cpp" />
     <ClCompile Include="testEquivalentPair.cpp" />
+    <ClCompile Include="testflags.cpp" />
     <ClCompile Include="testlongestsubstring.cpp" />
+    <ClCompile Include="testmaxdoubleslice.cpp" />
     <ClCompile Include="testmaxprofit.cpp" />
     <ClCompile Include="testmaxslicesum.cpp" />
     <ClCompile Include="testmaxxounter.cpp" />
@@ -127,6 +129,7 @@
     </ClCompile>
     <ClCompile Include="testminavg.cpp" />
     <ClCompile Include="testmindiffpart.cpp" />
+    <ClCompile Include="testminperimeterrec.cpp" />
     <ClCompile Include="testmostfreq.cpp" />
     <ClCompile Include="testoddoccurance.cpp" />
     <ClCompile Include="testrangequery.cpp" />
@@ -163,6 +166,9 @@
     <ProjectReference Include="..\EquivalentPair\EquivalentPair.vcxproj">
       <Project>{daf1758b-9364-4a45-96cf-0f1c1dde1094}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Flags\Flags.vcxproj">
+      <Project>{21186c89-96a4-4ea3-ac6a-53a77200a31a}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\GeonomicRangeQuery\GeonomicRangeQuery.vcxproj">
       <Project>{426a6297-2eee-4236-a3f6-4ca0feffb682}</Project>
     </ProjectReference>
@@ -171,6 +177,9 @@
     </ProjectReference>
     <ProjectReference Include="..\MaxCounter\MaxCounter.vcxproj">
       <Project>{c2d63e63-377b-4ddb-b99f-e5ecd6908f88}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MaxDoubleSlice\MaxDoubleSlice.vcxproj">
+      <Project>{824f3f57-873f-46af-974f-30b42f2d410c}</Project>
     </ProjectReference>
     <ProjectReference Include="..\MaxProfit\MaxProfit.vcxproj">
       <Project>{1ecc0794-30ed-4a55-b5a0-1372ec1a6f7d}</Project>
@@ -186,6 +195,9 @@
     </ProjectReference>
     <ProjectReference Include="..\MinDiffPart\MinDiffPart.vcxproj">
       <Project>{310c7aa2-27aa-4209-82d4-8ed4ac41c3ff}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MinPerimeterRec\MinPerimeterRec.vcxproj">
+      <Project>{44b954b3-cd8c-4841-87ab-7bc834c24134}</Project>
     </ProjectReference>
     <ProjectReference Include="..\MostFreq\MostFreq.vcxproj">
       <Project>{8768e9bc-2af1-45a2-9fcb-2eba3ee339c4}</Project>
