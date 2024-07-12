@@ -32,9 +32,7 @@
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\VS\PuzzelsInCpp\MedianSortedArray;$(IncludePath)</IncludePath>
-  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
   <ItemDefinitionGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -60,13 +58,11 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>D:\VS\PuzzelsInCpp\MedianSortedArray;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>$(IncludePath);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -120,7 +116,6 @@
     <ClCompile Include="testmaxprofit.cpp" />
     <ClCompile Include="testmaxslicesum.cpp" />
     <ClCompile Include="testmaxxounter.cpp" />
-    <ClCompile Include="testmediansortedarray.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -132,6 +127,7 @@
     <ClCompile Include="testminperimeterrec.cpp" />
     <ClCompile Include="testmostfreq.cpp" />
     <ClCompile Include="testoddoccurance.cpp" />
+    <ClCompile Include="testpeaks.cpp" />
     <ClCompile Include="testrangequery.cpp" />
     <ClCompile Include="testromantointeger.cpp" />
     <ClCompile Include="testrunningaverage.cpp" />
@@ -187,9 +183,6 @@
     <ProjectReference Include="..\MaxSliceSum\MaxSliceSum.vcxproj">
       <Project>{cd8f39f0-0716-49c3-8ab4-fed8fd748c11}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\MedianSortedArray\MedianSortedArray.vcxproj">
-      <Project>{259db56b-edb1-4e8d-a286-a061f3924e79}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\MinAvgTwoSlice\MinAvgTwoSlice.vcxproj">
       <Project>{11dc25f3-5dea-463a-b768-64c2d2daa781}</Project>
     </ProjectReference>
@@ -204,6 +197,9 @@
     </ProjectReference>
     <ProjectReference Include="..\OddOccurance\OddOccurance.vcxproj">
       <Project>{8baca403-95fc-434d-84b5-a7d3c6c30b3c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Peaks\Peaks.vcxproj">
+      <Project>{3e53558f-56d9-420a-868d-7f85c54881b7}</Project>
     </ProjectReference>
     <ProjectReference Include="..\RomanToInteger\RomanToInteger.vcxproj">
       <Project>{2c66af48-4f2f-4bbe-85db-ce52a04dae79}</Project>

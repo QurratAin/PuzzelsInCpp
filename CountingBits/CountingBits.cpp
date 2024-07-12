@@ -6,7 +6,7 @@ int CountingBits::counting_bits_boolvec(int X, vector<int>& A)
     leaf_counter[0] = true;
 
     for (int time = 0; time < (int)A.size(); time++) {
-        if (A[time] <= ( X + 1)) {
+        if (A[time] < ( X + 1)) {
             leaf_counter[A[time]] = true;
             if (std::all_of(leaf_counter.cbegin(), leaf_counter.cend(), [](bool i) {return i; })) {
                 // all positions are set to jump

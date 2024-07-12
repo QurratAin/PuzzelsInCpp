@@ -4,7 +4,7 @@ int OddOccurance::find(vector<int>& A)
 {
     sort(A.begin(), A.end());
     int length_a = A.size(), pos = 0;
-    while (pos < length_a) {
+    while (pos < length_a - 1) {
         if (A[pos] != A[pos + 1]) {
             return A[pos];
         }

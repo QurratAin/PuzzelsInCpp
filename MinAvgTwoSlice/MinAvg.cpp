@@ -16,15 +16,20 @@ int MinAvg::solution(vector<int>& A)
     double min_avg = cur_avg;
     int a_size = static_cast<int>(A.size());  
 
-    while ( win_start < a_size - 1) { 
+    while ( win_start < win_end && win_end < a_size) {
         cur_avg = std::accumulate(A.begin() + win_start, A.begin() + win_end +1, 0) / static_cast<double>(win_end - win_start +1);
         
         if (cur_avg < min_avg) {
             min_avg = cur_avg;
             start_idx = win_start;
         }     
-        if (((A[win_end + 1] < cur_avg) || (win_end - win_start == 1)) && (win_end + 1 != a_size)) {
-            ++win_end;
+        if (win_end + 1 < a_size) {
+            if ((A[win_end + 1] < cur_avg) || (win_end - win_start == 1)){
+                ++win_end;
+            }
+            else {
+                ++win_start;
+            }
         }
         else {
             ++win_start;
