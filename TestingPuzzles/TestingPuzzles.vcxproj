@@ -106,6 +106,8 @@
     <ClCompile Include="testbrackets.cpp" />
     <ClCompile Include="testcoinchange.cpp" />
     <ClCompile Include="testcountingbits.cpp" />
+    <ClCompile Include="testcountnondivisible.cpp" />
+    <ClCompile Include="testcountsemiprime.cpp" />
     <ClCompile Include="testdominator.cpp" />
     <ClCompile Include="testequalizefrequency.cpp" />
     <ClCompile Include="testequileader.cpp" />
@@ -149,6 +151,12 @@
     </ProjectReference>
     <ProjectReference Include="..\CountingBits\CountingBits.vcxproj">
       <Project>{ecb5bb31-8e1d-4835-b192-005b99c7212d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CountingSemiPrimes\CountingSemiPrimes.vcxproj">
+      <Project>{b6733267-1764-46ee-849f-cf2aadc450be}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CountNonDivisible\CountNonDivisible.vcxproj">
+      <Project>{9131aa23-18c3-4d55-9d4e-bcf175bd4a1b}</Project>
     </ProjectReference>
     <ProjectReference Include="..\Dominator\Dominator.vcxproj">
       <Project>{0afe61ee-fa3b-4be9-8018-d4779dbceb72}</Project>
