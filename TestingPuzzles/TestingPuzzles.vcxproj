@@ -104,6 +104,7 @@
   <ItemGroup>
     <ClCompile Include="testalivefish.cpp" />
     <ClCompile Include="testbrackets.cpp" />
+    <ClCompile Include="testchocolatebynumbers.cpp" />
     <ClCompile Include="testcoinchange.cpp" />
     <ClCompile Include="testcountingbits.cpp" />
     <ClCompile Include="testcountnondivisible.cpp" />
@@ -145,6 +146,9 @@
     </ProjectReference>
     <ProjectReference Include="..\Brackets\Brackets.vcxproj">
       <Project>{a4365bcf-0fff-4278-bd72-5cf81fa48ff1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ChocolatesByNumbers\ChocolatesByNumbers.vcxproj">
+      <Project>{194af9e7-23ba-4f80-bceb-ee3aeff39b1e}</Project>
     </ProjectReference>
     <ProjectReference Include="..\CoinChange\CoinChange.vcxproj">
       <Project>{8fee5306-e9a7-4271-8360-3eade7f5deb7}</Project>
