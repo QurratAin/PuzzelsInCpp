@@ -106,6 +106,7 @@
     <ClCompile Include="testbrackets.cpp" />
     <ClCompile Include="testchocolatebynumbers.cpp" />
     <ClCompile Include="testcoinchange.cpp" />
+    <ClCompile Include="testcommonprimedivisor.cpp" />
     <ClCompile Include="testcountingbits.cpp" />
     <ClCompile Include="testcountnondivisible.cpp" />
     <ClCompile Include="testcountsemiprime.cpp" />
@@ -152,6 +153,9 @@
     </ProjectReference>
     <ProjectReference Include="..\CoinChange\CoinChange.vcxproj">
       <Project>{8fee5306-e9a7-4271-8360-3eade7f5deb7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonPrimeDivisor\CommonPrimeDivisor.vcxproj">
+      <Project>{d94d4e1d-4126-4b92-8932-bea317a58f92}</Project>
     </ProjectReference>
     <ProjectReference Include="..\CountingBits\CountingBits.vcxproj">
       <Project>{ecb5bb31-8e1d-4835-b192-005b99c7212d}</Project>
